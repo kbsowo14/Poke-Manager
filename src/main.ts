@@ -5,7 +5,7 @@ import { Application, Assets, Sprite } from "pixi.js";
   const app = new Application();
 
   // Initialize the application
-  await app.init({ background: "#1099bb", resizeTo: window });
+  await app.init({ background: "#1099bb", width: 360, height: 640 });
 
   // Append the application canvas to the document body
   document.getElementById("pixi-container")!.appendChild(app.canvas);
